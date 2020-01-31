@@ -1,46 +1,28 @@
 ﻿using System;
 
-namespace switch_statements
+namespace if__else_if_else_conditions
 {
-    class MyApplication
+    class Program
     {
         static void Main(string[] args)
         {
-            int day =0;
-            switch(day)
+            int a = 20;
+
+            if (a == 10)
             {
-                case 0:
-                    Console.WriteLine("non of the above");
-                break;
-
-            case 1:
-                  Console.WriteLine("monday");
-            break;
-
-                  case 2:
-                       Console.WriteLine("tuesday");
-                  break;
-
-             case 3:
-                  Console.WriteLine("wednesday");
-             break;
-
-                  case 4:
-                       Console.WriteLine("thursday");
-                  break;
-
-            case 5:
-                 Console.WriteLine("friday");
-            break;
-
-                  case 6:
-                        Console.WriteLine("saturday");
-                  break;
-
-             case 7:
-                    Console.WriteLine("sunday");
-             break;
-
+                Console.WriteLine("a is 10");
+            }
+            else if (a == 15)
+            {
+                Console.WriteLine("a is 15");
+            }
+            else if (a == 20)
+            {
+                Console.WriteLine("a is 20");
+            }
+            else
+            {
+                Console.WriteLine("a is not present");
             }
         }
     }
