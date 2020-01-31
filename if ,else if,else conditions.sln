@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if ,else if,else conditions", "if ,else if,else conditions\if ,else if,else conditions.csproj", "{D5E0D0DD-CC89-48E3-BD98-BD721EC34900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5E0D0DD-CC89-48E3-BD98-BD721EC34900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E0D0DD-CC89-48E3-BD98-BD721EC34900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E0D0DD-CC89-48E3-BD98-BD721EC34900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E0D0DD-CC89-48E3-BD98-BD721EC34900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFDA1B3A-51B8-417C-848B-66B8CE396871}
+	EndGlobalSection
+EndGlobal
