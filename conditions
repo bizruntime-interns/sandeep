@@ -1,0 +1,143 @@
+using System;
+
+namespace conditions
+{
+    class Program
+    {
+        public void ifelse()
+        {
+            Console.WriteLine("Enter a number:");
+
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("it is a even");
+            }
+            else
+            {
+                Console.WriteLine("it is not a even");
+            }
+            Console.ReadKey();
+        }
+    }
+
+    namespace statements
+    {
+        class Good
+        {
+            public void switchcases()
+            {
+                Console.WriteLine("Enter a Number:");
+
+                int num = Convert.ToInt32(Console.ReadLine());
+
+                switch (num)
+                {
+                    case 1:
+                        Console.WriteLine("it is 9");
+                    break;
+
+                    case 2:
+                        Console.WriteLine("it is 99");
+                    break;
+
+                    case 3:
+                        Console.WriteLine("it is 999");
+                    break;
+
+                    default:
+                        Console.WriteLine("not 9,99 or 999");
+                     break;
+
+                }
+
+            }
+
+        }
+
+        namespace loops
+        {
+            class Bad
+            {
+                int i;
+                public void dowhile()
+                {
+                    while (i <= 10)
+                    {
+                        Console.WriteLine(i);
+                        i++;
+                    }
+                }
+
+
+            }
+
+            namespace dowhile
+            {
+                class Whiles
+                {
+                    int j;
+                    public void loops()
+                    {
+                        do
+                        {
+                            Console.WriteLine(j);
+                            j++;
+                        }
+                        while (j < 10);
+                    }
+
+                }
+
+                namespace events
+                {
+                    class Breaks
+                    {
+                      int a = 10;
+                        public void works()
+                        {
+
+                            for (int a = 0; a <= 10; a++)
+                            {
+
+                                if (a == 5)
+                                {
+                                    break;
+                                }
+                                Console.WriteLine(a);
+                            }
+                        }
+
+                        static void Main(string[] args)
+
+                        {
+                            Program p = new Program();
+                            p.ifelse();
+
+                            statements.Good g = new statements.Good();
+                            g.switchcases();
+
+                            loops.Bad b = new loops.Bad();
+                            b.dowhile();
+
+                            dowhile.Whiles w = new Whiles();
+                            w.loops();
+
+                            events.Breaks B = new events.Breaks();
+                            B.works();
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        
+    }
+
+
+}
+
+
