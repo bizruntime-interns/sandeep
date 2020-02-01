@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>This is my First HTML page</title>
+    </head>
+    <body>
+        <button onclick="this.InnerHTML=Date()">The time is</button>
+        <h1>Hello Good Morning Everyone</h1>
+        <h2>Hello good morning everyone</h2>
+        <hr>
+        <p>This is my first paragraph</p>
+        <button>click me</button>
+        <hr>
+        <p style="color:turquoise;">good</p>
+        <p style="color: yellow;">i am a bad boy</p>
+        <a href="https://www.google.com">this is a link</a>
+        <h4 style="text-align: center;"> good morning everyone</h4>
+        <p style="font-size: 300%;">is my first paragraph</p>
+        <p><b>i hate you<b></p>
+        <p><i>you are great fellow</i></p>
+        <p><strong>strong</strong></p>
+        <p><em>fabalous</em></p>
+        <p>you are a <mark>great</mark> man</p>
+        <p>you are a <del>great</del> man</p>
+        <p>you are a <ins>good</ins> man</p>
+        <p>you are a <sub>subscription</sub> man</p>
+        <p>you are a <sup>subscription</sup> man</p>
+        <!DOCTYPE html>
+
+    
+
+        <button  onclick="this.innerHTML = 'Welcome '">Please click here </button>  
+
+         <p onclick="this.innerHTML = 'paragraph'"> This is check the onclick </p>
+
+             <h1 onclick="this.innerHTML = 'Hello World'"> Hi world</h1>
+
+              <h id ="head"> Hello World</h>
+                 
+              <h2>this is new time</h2>
+                <p id="demo"></p>
+                 <script>
+                            document.getElementById("head").innerHTML = "Welcome to BizRuntime";
+                            
+                            Var   = new Date();
+                            document.getElementById("head").innerHTML = d.getTime();
+                 </script>
+    </body>
+</html>
